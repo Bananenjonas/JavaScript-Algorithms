@@ -1,8 +1,7 @@
 function isDigit(str) {
-  if (str) {
-    return test;
-  }
+  return (str.length === 1) ? /[0-9]/.test(str) : false;
 }
 
-console.log(repeatString("codinggod", 4));
-console.log(repeatString("google", 3));
+console.log(isDigit("1"));
+console.log(isDigit("3"));
+console.log(isDigit("d"));
