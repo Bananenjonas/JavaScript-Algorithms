@@ -3,9 +3,9 @@ Write a function that takes in a string and returns the largest word in the arra
 
 # Example returns
 
-* your Function("Ready, steady, go!") will return "steady".
-* your Function("Ready[[[, steady, go!") will return "steady".
-* your Function("ABCd") will return "ABCd".
+* yourFunction("Ready, steady, go!") will return "steady".
+* yourFunction("Ready[[[, steady, go!") will return "steady".
+* yourFunction("ABCd") will return "ABCd".
 
 # How I Solved It Hints
 * replace()
